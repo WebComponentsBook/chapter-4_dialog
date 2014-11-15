@@ -1,10 +1,10 @@
 {
-  "name": "chapter-3_dialog",
+  "name": "chapter-4_dialog",
   "version": "0.0.0",
   "authors": [
     "Jason Strimpel <jstrimpel@gmail.com>"
   ],
-  "description": "dialog component positioning",
+  "description": "dialog component z-index",
   "main": "./dialog.js",
   "moduleType": [
     "globals"
@@ -13,7 +13,7 @@
     "dialog"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/WebComponentsBook/chapter-3_dialog",
+  "homepage": "https://github.com/WebComponentsBook/chapter-4_dialog",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "chapter-2_voltron": "0.0.0",
+    "chapter-2_voltron": "*",
     "jenga": "*"
   }
 }
